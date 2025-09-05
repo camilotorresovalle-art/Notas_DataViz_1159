@@ -18,7 +18,7 @@ const estudiantes = {
     "0000370268":{nombre:"Marlon Francisco Umbarila Ortega",notas:{caracterizacion:4.8,peliculas:4.8,challenge:4,tareas:4.4,quiz:4.5,proyecto:4.4,parcial:4,final:4.3}},
     "0000373559":{nombre:"Nataly Valbuena Lopez",notas:{caracterizacion:5,peliculas:5,challenge:5,tareas:5,quiz:5,proyecto:4.9,parcial:4.8,final:4.9}},
     "0000328241":{nombre:"Ronald Mauricio Gonzalez Lozano",notas:{caracterizacion:4.8,peliculas:5,challenge:4.8,tareas:4.9,quiz:4.5,proyecto:4.9,parcial:5,final:4.9}},
-    "0000209774":{nombre:"Sabrina Anais Miranda Franco",notas:{caracterizacion:5,peliculas:5,challenge:4.6,tareas:4.8,quiz:5,proyecto:4.8,parcial:4.3,final:4.2}},
+    "0000209774":{nombre:"Sabrina Anais Miranda Franco",notas:{caracterizacion:5,peliculas:5,challenge:4.6,tareas:4.8,quiz:5,proyecto:4.8,parcial:4.3,final:4.7}},
     "0000372109":{nombre:"Sonia Natalia Franco Saavedra",notas:{caracterizacion:5,peliculas:5,challenge:4.4,tareas:4.7,quiz:4.5,proyecto:4.8,parcial:5,final:4.8}}
 };
 

@@ -136,3 +136,20 @@ th {
     max-width: 500px;
     max-height: 500px;
 }
+
+/* --- Estilos para el Pie de Página (Footer) --- */
+footer {
+    margin-top: 40px; /* Separa la tarjeta del contenido de arriba */
+    padding: 20px; /* Crea espacio interno */
+    background-color: #f8f9fa; /* Un color de fondo suave */
+    border-top: 3px solid #192c54; /* Un borde superior para darle énfasis */
+    border-radius: 8px; /* Redondea las esquinas */
+    text-align: center; /* Centra todo el texto */
+    color: #343a40; /* Un color de texto oscuro pero no negro puro */
+}
+
+/* Estilos para los párrafos dentro del footer */
+footer p {
+    margin: 5px 0; /* Reduce el espacio entre las líneas de texto */
+    font-size: 0.9em; /* Hace el texto un poco más pequeño */
+}

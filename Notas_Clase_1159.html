@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Consulta de Notas</title>
+    
+    <!-- 1. Enlace al archivo de estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+    
+    <!-- 2. Enlace a la librería externa Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Consulta de Notas de la Clase de Visualización de Datos para la inteligencia de Negocio🎯</h1>
+        
+        <div class="form-group">
+            <label for="codigo">Por favor ingresa tu código de estudiante:</label>
+            <input type="text" id="codigo" placeholder="Por ejemplo: 0000291605">
+        </div>
+        
+        <button id="consultarBtn">Consultar mis notas</button>
+        
+        <div id="error" class="error"></div>
+        
+        <div id="result" class="result">
+            <h2>Información del Estudiante</h2>
+            <p><strong>Nombre:</strong> <span id="nombre"></span></p>
+            <p><strong>ID Estudiante:</strong> <span id="codigoEstudiante"></span></p>
+            
+            <div id="motivational-card"></div>
+
+            <div class="grades-section">
+                <h3>Calificaciones Detalladas</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Evaluación</th>
+                            <th>Caracterización<span class="peso">(3%)</span></th>
+                            <th>Películas<span class="peso">(3%)</span></th>
+                            <th>Challenge<span class="peso">(14%)</span></th>
+                            <th>Tareas<span class="peso">(20%)</span></th>
+                            <th>Quiz<span class="peso">(10%)</span></th>
+                            <th>Proyecto<span class="peso">(40%)</span></th>
+                            <th>Parcial<span class="peso">(30%)</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="notasDetalle"></tr>
+                    </tbody>
+                </table>
+                <div class="nota-final">
+                    Nota Final: <span id="notaFinal"></span>
+                </div>
+            </div>
+            
+            <div class="chart-section">
+                <h3>Gráfico de Desempeño</h3>
+                <div class="chart-container">
+                    <canvas id="radarChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. Enlace a tu archivo JavaScript, siempre antes de cerrar el </body> -->
+    <script src="script.js"></script>
+</body>
+</html>
